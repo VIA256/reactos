@@ -3,7 +3,7 @@
  * PROJECT:           ReactOS system libraries
  * PURPOSE:           Network configuration
  * FILE:              dll/win32/netcfgx/netinstall.c
- * PROGRAMER:         Eric Kohl
+ * PROGRAMMER:         Eric Kohl
  */
 
 /* INCLUDES *****************************************************************/
@@ -266,7 +266,7 @@ CheckInfFile(
                              NULL,
                              &MfgContext))
     {
-        ERR("No Manufacurer section found!\n");
+        ERR("No Manufacturer section found!\n");
         goto done;
     }
 
